@@ -615,14 +615,15 @@ form button {
     }
     #sidebar {
         position: fixed;
-        top: 50px;
+        top: 0px;
         left: -790px;
         width: 60%;
         height: 100vh;
-        background-color: var(--navbar-bg-color);
+        background-color: #1d1b27f0;
         backdrop-filter: blur(10px);
         filter: drop-shadow(100px);
         transition: 0.3s ease-in-out;
+        border-right: 1px solid var(--second-color);
         z-index: 999;
     }
     #sidebar.active {
